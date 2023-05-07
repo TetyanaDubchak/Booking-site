@@ -1,0 +1,44 @@
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+    width: 1200px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+
+.footer-section {
+    background-color: $second-bg-color;
+}
+
+.footer-text-wrap {
+    display: flex;
+    gap: 8px;
+
+    align-items: center;
+}
+
+.footer-list {
+    display: flex;
+    gap: 8px;
+}
+
+.footer-link {
+    @extend %link-reset;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    
+    color: $main-text-color;
+}
+
+.footer-text {
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: $main-text-color;
+}

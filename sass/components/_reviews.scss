@@ -1,0 +1,87 @@
+.reviews-section {
+    padding-top: 128px;
+    padding-bottom: 128px;
+
+    background-image: url('../../img/background/response-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.reviews-title {
+    margin-bottom: 214px;
+
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 1.09;
+    text-align: center;
+    
+    color: $main-text-color;
+
+    span {
+        display: inline-block;
+        width: 336px;
+        background-color: $light-bg-title;
+        border-radius: 8px;
+    }
+}
+
+.reviews-list {
+    display: flex;
+    gap: 24px;
+
+    margin-bottom: 56px;
+}
+
+.reviews-item {
+    padding-top: 50px;
+    padding-left: 32px;
+    padding-bottom: 32px;
+    min-height: 365px;
+
+    background-color: $second-bg-color;
+    border-radius: 8px;
+}
+
+.reviews-item-text {
+    font-size: 18px;
+    line-height: 1.33;
+     
+    color: $main-text-color;
+}
+
+.reviews-item-name {
+    font-size: 18px;
+    line-height: 1.33;
+       
+    color: $main-text-color;
+}
+
+.reviews-item-status {
+    font-size: 14px;
+    line-height: 1.71;
+    
+    letter-spacing: 0.28px;
+    
+    color: $main-text-color;
+}
+
+.reviews-btn-list {
+    display: flex;
+    gap: 48px;
+    justify-content: center;
+
+    
+}
+
+.reviews-btn-item-btn {
+    padding: 12px;
+    border-color: transparent;
+    background-color: #004449;
+    border-radius: 50%;
+
+}
+
+ .current {
+     transform: rotate(180deg);
+ }

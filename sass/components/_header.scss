@@ -1,0 +1,46 @@
+.header-section {
+    background-color: $main-bg-color;
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+
+        padding-left: 184px;
+        padding-right: 240px;
+
+        .header-logo {
+            @extend %link-reset;
+
+            display: block;
+
+            padding-top: 44px;
+            padding-bottom: 44px;
+        
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.33;
+            letter-spacing: 1.2px;
+            text-transform: uppercase;
+        
+            color: rgba(215, 255, 194, 1);
+            }
+        .header-button {
+            display: flex;
+
+            padding-top: 44px;
+            padding-bottom: 44px;
+            
+            min-width: 58px;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 1;
+
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+
+            color: $second-text-color;
+            border-color: transparent;
+            background-color: transparent;
+        }
+    }
+    
+}

@@ -1,0 +1,84 @@
+.real-section {
+    padding-top: 184px;
+    padding-bottom: 128px;
+
+    background-color: $second-bg-color;
+}
+
+.real-title {
+    margin-bottom: 48px;
+
+    @extend %title-w-s-h;
+    text-align: center;
+    
+    color: $main-text-color;
+
+    span {
+        display: inline-block;
+        width: 244px;
+        background-color: $light-bg-title;
+        border-radius: 8px;
+    }
+}
+
+.real-list {
+    display: flex;
+
+}
+
+.real-item-wrapper {
+    width: 20%;
+}
+
+.real-item-wrap {
+    position: relative;
+
+    margin-bottom: 42px;
+}
+
+.real-item-price-wrap {
+    position: absolute;
+    bottom: -32px;
+    left: 50%;
+    transform: translate(-50%, 0);
+
+    padding-top: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    max-width: 124px;
+    background-color: #FDD6BA;
+    border-radius: 800px;
+}
+
+.real-item-price {
+    font-size: 38px;
+    line-height: 1.47;
+
+    color: $main-text-color;
+
+    sup {
+        font-size: 16px;
+        top: -1.38em;
+    }
+}
+
+.real-item-describe {
+    margin-bottom: 7px;
+
+    font-size: 14px;
+    line-height: 1.71;
+    text-align: center;
+    letter-spacing: 0.28px;
+    
+    color: $main-text-color;
+}
+
+.real-item-city {
+    font-size: 18px;
+    line-height: 1.43;
+    text-align: center;
+    
+    color: #004449;
+    
+}

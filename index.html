@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Scott's Cheap Flights</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header-section">
+      <div class="container header-container">
+        <a class="header-logo" href="./index.html"
+          >Formerly Scott's Cheap Flights</a
+        >
+        <button class="header-button" type="button">Login</button>
+      </div>
+    </header>
+    <main>
+      <!--Hero-->
+      <section class="hero-section">
+        <div class="container hero-container">
+          <h1 class="hero-title">
+            Less overpaying. <span>More traveling.</span>
+          </h1>
+          <p class="hero-text">
+            Meet the travel membership that saves you hundreds on flights.
+          </p>
+          <button class="hero-button" type="button">
+            GET FREE FLIGHT ALERTS
+          </button>
+        </div>
+      </section>
+
+      <!--Cooperate-->
+      <section class="cooperate-section">
+        <div class="cooperate-container">
+          <h2 class="cooperate-title">Сooperating companies</h2>
+          <p class="cooperate-text">as seen in</p>
+          <ul class="cooperate-list">
+            <li class="cooperate-item">
+              <svg class="cooperate-icon" width="76" height="54">
+                <use href="./img/icon.svg#icon-company1"></use>
+              </svg>
+            </li>
+            <li class="cooperate-item">
+              <svg class="cooperate-icon" width="72" height="54">
+                <use href="./img/icon.svg#icon-company2"></use>
+              </svg>
+            </li>
+            <li class="cooperate-item">
+              <svg class="cooperate-icon" width="71" height="54">
+                <use href="./img/icon.svg#icon-company3"></use>
+              </svg>
+            </li>
+            <li class="cooperate-item">
+              <svg class="cooperate-icon" width="116" height="54">
+                <use href="./img/icon.svg#icon-company4"></use>
+              </svg>
+            </li>
+            <li class="cooperate-item">
+              <svg class="cooperate-icon" width="52" height="54">
+                <use href="./img/icon.svg#icon-company5"></use>
+              </svg>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--How going-->
+      <section class="how-going-section">
+        <div class="container">
+          <h2 class="how-going-title">How Going <sup>TM</sup> Works</h2>
+          <ul class="how-going-list">
+            <li class="how-going-item">
+              <div class="how-going-item-img">
+                <picture>
+                  <source
+                    srcset="
+                      ./img/howgoing/img1.png    1x,
+                      ./img/howgoing/img1@2x.png 2x
+                    " />
+                  <img
+                    src="./img/howgoing/img1.png"
+                    alt="Plane"
+                    width="187"
+                    height="155"
+                /></picture>
+              </div>
+              <div class="how-going-item-wrap">
+                <h4 class="how-going-item-title">Start with your airport.</h4>
+                <p class="how-going-item-text">
+                  Choose US departure airports like your biggest airport,
+                  closest airport, and maybe even your parent’s.
+                </p>
+              </div>
+            </li>
+            <li class="how-going-item">
+              <div class="how-going-item-img">
+                <picture>
+                  <source
+                    srcset="
+                      ./img/howgoing/img2.png    1x,
+                      ./img/howgoing/img2@2x.png 2x
+                    " />
+                  <img
+                    src="./img/howgoing/img2.png"
+                    alt="Binoculars"
+                    width="130"
+                /></picture>
+              </div>
+              <div class="how-going-item-wrap">
+                <h4 class="how-going-item-title">Watch the deals roll in.</h4>
+                <p class="how-going-item-text">
+                  We keep a close eye on airfare to over 900 destinations around
+                  the world. When the prices drop, you know.
+                </p>
+              </div>
+            </li>
+            <li class="how-going-item">
+              <div class="how-going-item-img">
+                <picture>
+                  <source
+                    srcset="
+                      ./img/howgoing/img3.png    1x,
+                      ./img/howgoing/img3@2x.png 2x
+                    " />
+                  <img
+                    src="./img/howgoing/img3.png"
+                    alt=" A hand with pen writes"
+                    width="150"
+                /></picture>
+              </div>
+              <div class="how-going-item-wrap">
+                <h4 class="how-going-item-title">Then book it.</h4>
+                <p class="how-going-item-text">
+                  With flight details, booking links, and timeline estimates,
+                  all that’s left for you is to say, “Let’s go!”
+                </p>
+              </div>
+            </li>
+          </ul>
+          <div class="how-going-booked-wrap">
+            <h3 class="how-going-booked-title">
+              Booked. Going. <span>Gone.</span>
+            </h3>
+            <p class="how-going-booked-text">
+              Most deals are 40-90% off normal prices with great itineraries
+              from the best airlines. If it's not an amazing deal, we won't send
+              it.
+            </p>
+            <button class="how-going-booked-btn" type="button">
+              GET FREE FLIGHT ALERTS
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!--Real deals-->
+      <section class="real-section">
+        <div class="container">
+          <h2 class="real-title"><span>Real deals</span> members booked</h2>
+          <div class="swiper mySwiper">
+            <ul class="real-list swiper-wrapper">
+              <li class="real-item swiper-slide">
+                <div class="real-item-wrapper">
+                  <div class="real-item-wrap">
+                    <picture>
+                      <source
+                        srcset="
+                          ./img/cities/tokyo.jpg    1x,
+                          ./img/cities/tokyo@2x.jpg 2x
+                        "
+                      />
+                      <img
+                        src="./img/cities/tokyo.jpg"
+                        alt="Tokyo's street"
+                        width="226"
+                      />
+                    </picture>
+                    <div class="real-item-price-wrap">
+                      <p class="real-item-price"><sup>$</sup>525</p>
+                    </div>
+                  </div>
+                  <p class="real-item-describe">(50% off normally $1,200+)</p>
+                  <p class="real-item-city">
+                    San Francisco
+                    <svg class="real-item-city-icon" width="22" height="22">
+                      <use href="./img/icon.svg#icon-sign-bl"></use>
+                    </svg>
+                    Tokyo
+                  </p>
+                </div>
+              </li>
+              <li class="real-item swiper-slide">
+                <div class="real-item-wrapper">
+                  <div class="real-item-wrap">
+                    <picture>
+                      <source
+                        srcset="
+                          ./img/cities/berlin.jpg    1x,
+                          ./img/cities/berlin@2x.jpg 2x
+                        "
+                      />
+                      <img
+                        width="226"
+                        src="./img/cities/berlin.jpg"
+                        alt="River with boat in Berlin"
+                      />
+                    </picture>
+                    <div class="real-item-price-wrap">
+                      <p class="real-item-price"><sup>$</sup>285</p>
+                    </div>
+                  </div>
+                  <p class="real-item-describe">(71% off normally $1000+)</p>
+                  <p class="real-item-city">
+                    New York
+                    <svg class="real-item-city-icon" width="22" height="22">
+                      <use href="./img/icon.svg#icon-sign-bl"></use>
+                    </svg>
+                    City Berlin
+                  </p>
+                </div>
+              </li>
+              <li class="real-item swiper-slide">
+                <div class="real-item-wrapper">
+                  <div class="real-item-wrap">
+                    <picture>
+                      <source
+                        srcset="
+                          ./img/cities/boston.jpg    1x,
+                          ./img/cities/boston@2x.jpg 2x
+                        "
+                      />
+                      <img
+                        width="226"
+                        src="./img/cities/boston.jpg"
+                        alt="Rocks and river of Reykjavik"
+                      />
+                    </picture>
+                    <div class="real-item-price-wrap">
+                      <p class="real-item-price"><sup>$</sup>100</p>
+                    </div>
+                  </div>
+                  <p class="real-item-describe">(88% off normally $800+)</p>
+                  <p class="real-item-city">
+                    Boston
+                    <svg class="real-item-city-icon" width="22" height="22">
+                      <use href="./img/icon.svg#icon-sign-bl"></use>
+                    </svg>
+                    Reykjavik
+                  </p>
+                </div>
+              </li>
+              <li class="real-item swiper-slide">
+                <div class="real-item-wrapper">
+                  <div class="real-item-wrap">
+                    <picture>
+                      <source
+                        srcset="
+                          ./img/cities/new-york.jpg    1x,
+                          ./img/cities/new-york@2x.jpg 2x
+                        "
+                      />
+                      <img
+                        src="./img/cities/new-york.jpg"
+                        alt="Castle in Spain"
+                        width="226"
+                      />
+                    </picture>
+                    <div class="real-item-price-wrap">
+                      <p class="real-item-price"><sup>$</sup>282</p>
+                    </div>
+                  </div>
+                  <p class="real-item-describe">(65% off normally $800+)</p>
+                  <p class="real-item-city">
+                    New York
+                    <svg class="real-item-city-icon" width="22" height="22">
+                      <use href="./img/icon.svg#icon-sign-bl"></use>
+                    </svg>
+                    City Barcelona
+                  </p>
+                </div>
+              </li>
+              <li class="real-item swiper-slide">
+                <div class="real-item-wrapper">
+                  <div class="real-item-wrap">
+                    <picture>
+                      <source
+                        srcset="
+                          ./img/cities/chicago.jpg    1x,
+                          ./img/cities/chicago@2x.jpg 2x
+                        "
+                      />
+                      <img
+                        src="./img/cities/chicago.jpg"
+                        alt="Cancun's beach"
+                        width="226"
+                      />
+                    </picture>
+                    <div class="real-item-price-wrap">
+                      <p class="real-item-price"><sup>$</sup>166</p>
+                    </div>
+                  </div>
+                  <p class="real-item-describe">(67% off normally $500+)</p>
+                  <p class="real-item-city">
+                    Chicago
+                    <svg class="real-item-city-icon" width="22" height="22">
+                      <use href="./img/icon.svg#icon-sign-bl"></use>
+                    </svg>
+                    Cancun
+                  </p>
+                </div>
+              </li>
+            </ul>
+            <div class="swiper-pagination"></div>
+          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </section>
+
+      <!--Reviews-->
+      <section class="reviews-section">
+        <div class="container">
+          <h2 class="reviews-title">
+            Loved by over <br />
+            <span> two million</span> travelers
+          </h2>
+          <ul class="reviews-list">
+            <li class="reviews-item">
+              <p class="reviews-item-text">
+                "Thanks for the info on the Denver to Rome flight for $346 last
+                November. At that price, I was able to turn my individual
+                adventure trip into a super-cool family trip with my wife and
+                two daughters."
+              </p>
+              <p class="reviews-item-name">Thomas P.</p>
+              <p class="reviews-item-status">Member since 2017</p>
+            </li>
+            <li class="reviews-item">
+              <p class="reviews-item-text">
+                "I woke up to an email detailing a sale from Atlanta to Hawaii
+                (which feels like it never happens!), and we booked within an
+                hour. It was totally impulsive but the best decision we’ve made
+                in a long time! We each paid $377 roundtrip when all was said
+                and done."
+              </p>
+              <p class="reviews-item-name">Kristen L.</p>
+              <p class="reviews-item-status">Member since 2017</p>
+            </li>
+            <li class="reviews-item">
+              <p class="reviews-item-text">
+                "I was able to take a solo trip to Europe for $400! I flew in
+                and out of Barcelona, but I also visited Marrakech and Lisbon.
+                So much history and culture in a 2 week period, it was
+                incredible."
+              </p>
+              <p class="reviews-item-name">Cody U.</p>
+              <p class="reviews-item-status">Member</p>
+            </li>
+            <li class="reviews-item">
+              <p class="reviews-item-text">
+                "I got an alert from Going to Tokyo for $550 RT and immediately
+                messaged my fiance to book! We visited Tokyo, Kyoto, Hiroshima,
+                and Osaka. My fiance also proposed in Tokyo!!! Such an
+                incredibly special trip that we'll never forget."
+              </p>
+              <p class="reviews-item-name">Maggie H.</p>
+              <p class="reviews-item-status">Member</p>
+            </li>
+            <li class="reviews-item">
+              <p class="reviews-item-text">
+                "We'd always talked about Spain, but flights were too expensive.
+                Thanks to one of your Europe sale notifications, our flights
+                were only around $680 for two!"
+              </p>
+              <p class="reviews-item-name">Drew C.</p>
+              <p class="reviews-item-status">Member since 2015</p>
+            </li>
+            <li class="reviews-item">
+              <p class="reviews-item-text">
+                "Thanks for the info on the Denver to Rome flight for $346 last
+                November. At that price, I was able to turn my individual
+                adventure trip into a super-cool family trip with my wife and
+                two daughters."
+              </p>
+              <p class="reviews-item-name">Thomas P.</p>
+              <p class="reviews-item-status">Member since 2017</p>
+            </li>
+          </ul>
+          <ul class="reviews-btn-list">
+            <li class="reviews-btn-item">
+              <button class="reviews-btn-item-btn current">
+                <svg class="reviews-btn-item-icon" width="24" height="24">
+                  <use href="./img/icon.svg#icon-sign-wh"></use>
+                </svg>
+              </button>
+            </li>
+            <li class="reviews-btn-item">
+              <button class="reviews-btn-item-btn">
+                <svg class="reviews-btn-item-icon" width="24" height="24">
+                  <use href="./img/icon.svg#icon-sign-wh"></use>
+                </svg>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--Advice-->
+      <section class="advice-section">
+        <div class="container">
+          <div class="advice-wrap">
+            <picture>
+              <source
+                srcset="
+                  ./img/never-overpay/img1.png    1x,
+                  ./img/never-overpay/img1@2x.png 2x
+                "
+              />
+              <img src="./img/never-overpay/img1.png" alt="Girl with cat" />
+            </picture>
+
+            <h2 class="advice-title">Never overpay for flights again</h2>
+            <p class="advice-text">
+              Everything great about going on vacation without the stress of
+              searching for flights.
+            </p>
+            <button class="advice-button">GET FREE FLIGHT ALERTS</button>
+          </div>
+        </div>
+      </section>
+
+      <!--Resources-->
+      <section class="resources-section">
+        <div class="resources-container">
+          <div class="about-wrap">
+            <p class="resources-title">About</p>
+            <ul class="resources-list">
+              <li class="resources-item">
+                <a class="resources-link" href="#">How it works</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">About Us</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Careers</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Premium Membership</a>
+              </li>
+              <li class="resourcesitem">
+                <a class="resources-link" href="#">Elite Membership</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Newsroom</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Member Stories</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Referral</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Gift Cards</a>
+              </li>
+            </ul>
+          </div>
+          <div class="resources-wrap">
+            <p class="resources-title">Resources</p>
+            <ul class="resources-list">
+              <li class="resources-item">
+                <a class="resources-link" href="#">On The Fly</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Travel Glossary</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Window Seat Blog</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">How to Find Cheap Flights</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Study Abroad Scholarship</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Travel Community</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Advertise With Us</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Become an Affiliate</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">Media Kit</a>
+              </li>
+            </ul>
+          </div>
+          <div class="support-wrap">
+            <p class="resources-title">Support</p>
+            <ul class="resources-list">
+              <li class="resources-item">
+                <a class="resources-link" href="#">help center</a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#">contact us</a>
+              </li>
+            </ul>
+          </div>
+          <div class="follow-wrap">
+            <p class="resources-title">Follow Us</p>
+            <ul class="resources-list follow-list">
+              <li class="resources-item">
+                <a class="resources-link" href="#"
+                  ><svg class="resources-link-icon" width="32" height="32">
+                    <use href="./img/icon.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#"
+                  ><svg class="resources-link-icon" width="32" height="32">
+                    <use href="./img/icon.svg#icon-youtube"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="resources-item">
+                <a class="resources-link" href="#"
+                  ><svg class="resources-link-icon" width="32" height="32">
+                    <use href="./img/icon.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--Footer-->
+    <footer class="footer-section">
+      <div class="footer-container">
+        <svg class="footer-logo" width="55" height="55">
+          <use href="./img/icon.svg#icon-tm"></use>
+        </svg>
+        <div class="footer-text-wrap">
+          <ul class="footer-list">
+            <li class="footer-list">
+              <a class="footer-link" href="#">TERMS</a>
+            </li>
+            <li class="footer-list">
+              <a class="footer-link" href="#">Privacy</a>
+            </li>
+          </ul>
+          <p class="footer-text">© Going 2023</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>

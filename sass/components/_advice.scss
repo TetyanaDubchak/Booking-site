@@ -1,0 +1,53 @@
+.advice-section {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-color: $second-bg-color
+}
+
+.advice-wrap {
+    position: relative;
+
+    margin-left: auto;
+    margin-right: auto;
+    padding: 56px 122px;
+
+    max-width: 944px;
+
+    background-color: #BAEBFF;
+    border-radius: 8px;
+
+    img {
+        position: absolute;
+        top: -22%;
+        left: -5%;
+    }
+}
+
+.advice-title {
+    margin-bottom: 20px;
+
+    @extend %title-w-s-h;
+    text-align: center;
+    
+    color: $main-text-color;
+}
+
+.advice-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 28px;
+
+    max-width: 465px;
+
+    font-size: 24px;
+    line-height: 1.33;
+    text-align: center;
+    
+    color: $main-text-color;
+}
+
+
+.advice-button {
+    @extend %buy-button;
+}

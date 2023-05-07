@@ -1,0 +1,55 @@
+.resources-section {
+    padding-top: 64px;
+    padding-bottom: 80px;
+
+    background-color: $main-bg-color;
+}
+
+.resources-container {
+    display: flex;
+    margin: 0 auto;
+    padding-left: 24px;
+    padding-right: 24px;
+    width: 1200px;
+}
+
+.resources-title {
+    margin-bottom: 48px;
+
+    font-size: 18px;
+    line-height: 1.33;
+ 
+    color: $second-text-color;
+}
+
+.resources-link {
+    display: inline-block;
+    @extend %link-reset;
+
+    margin-bottom: 16px;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    
+    color: $second-text-color;
+}
+
+.about-wrap {
+    margin-right: 104px;
+}
+
+.resources-wrap {
+    margin-right: 48px;
+}
+
+.support-wrap {
+    margin-right: 180px;
+}
+
+.follow-list {
+    display: flex;
+    gap: 64px;
+}

@@ -1,0 +1,34 @@
+.cooperate-container {
+    margin: 0 auto;
+    width: 1200px;
+    padding-left: 48px;
+    padding-right: 48px;
+}
+
+.cooperate-section {
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+    background-color: $main-bg-color
+}
+
+.cooperate-title {
+    @extend %visually-hidden;
+}
+
+.cooperate-text {
+    margin-bottom: 48px;
+
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+    
+    color: $second-text-color;
+}
+
+.cooperate-list {
+    display: flex;
+    gap: 179px;
+}
